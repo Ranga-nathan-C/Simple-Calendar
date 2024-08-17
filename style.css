@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+table {
+    table-layout: fixed;
+}
+
+thead th {
+    font-weight: 700;
+}
+
+tbody td {
+    height: 80px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+tbody td:hover {
+    background-color: #f1f1f1;
+}
+
+.today {
+    background-color: #ffc107;
+    color: white;
+}
+
+.holiday {
+    background-color: #dc3545;
+    color: white;
+}
+
+select {
+    width: 100px;
+    margin: 0 auto;
+}
